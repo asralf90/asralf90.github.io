@@ -21,9 +21,9 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-size: 38px;
+  font-size: 32px;
   color: #222222;
-  font-weight: 700;
+  font-weight: 450;
   font-family: 'Arvo', serif;
 }
 
@@ -1473,4 +1473,12 @@ textarea {
   50% {
     transform: translate3d(0,5px,0);
   }
+}
+
+.img-fluid{
+  margin-top: 150px;
+}
+
+.img-fluid2{
+  margin-top: 400px;
 }
