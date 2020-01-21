@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background:#fff;
   font-size: 14px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -21,9 +21,9 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-size: 32px;
+  font-size: 16px;
   color: #222222;
-  font-weight: 450;
+  font-weight: 100;
   font-family: 'Arvo', serif;
 }
 
@@ -87,14 +87,6 @@ a:not([href]):not([tabindex]) {
   position: relative;
   width: 60px;
   background-color: #F63854;
-}
-
-.shape-team {
-  height: 1px;
-  margin: 0 auto 30px;
-  position: relative;
-  width: 60px;
-  background-color: #fff;
 }
 
 .padding-none {
@@ -359,6 +351,7 @@ hr {
 #features .content-right span {
   float: left;
 }
+
 
 #features .box-item {
   box-shadow: 0 0 12px #F4F4F4;
@@ -1018,9 +1011,6 @@ hr {
 
 .testimonial {
   position: relative;
-background: #b92b27;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .testimonial-item {
@@ -1291,7 +1281,9 @@ textarea {
 .footer-area {
   position: relative;
   padding: 150px 0px 0px;
-  background: #fff;
+  background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .footer-area .footer-titel {
@@ -1316,7 +1308,7 @@ textarea {
 }
 
 .footer-area .footer-link li a {
-  color: #333;
+  color: #fff
   font-size: 14px;
   font-weight: 400;
   position: relative;
@@ -1331,7 +1323,7 @@ textarea {
 }
 
 .footer-area .address li a {
-  color: #666666;
+  color: #fff;
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
@@ -1476,9 +1468,27 @@ textarea {
 }
 
 .img-fluid{
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
-.img-fluid2{
-  margin-top: 400px;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color:#F63854;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color:#F63854;
 }
