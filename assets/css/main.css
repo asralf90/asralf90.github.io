@@ -1370,6 +1370,17 @@ background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, F
   color: #F63854;
 }
 
+.complogo{
+  height: 100px;
+  width:100px;
+  margin-left: 55px;
+}
+
+.complogo:hover {
+
+  background:  #F63854;
+}
+
 #copyright .copyright-content {
   border-top: 1px solid #d5d4e9;
   padding: 15px 0;
