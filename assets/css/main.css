@@ -144,6 +144,16 @@ a:not([href]):not([tabindex]) {
   -webkit-transition: all .2s ease-in-out;
 }
 
+.btn-dark:hover {
+  color: #F63854;
+  background: transparent;
+  border: 1px dotted #F63854;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
 .btn-border {
   color: #F63854;
   background-color: transparent;
